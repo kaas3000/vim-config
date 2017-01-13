@@ -15,3 +15,13 @@ source $PWD/vimrc.vim
 EOF
 
 echo "$LOADCONFIGSCRIPT" >> ~/.vimrc
+
+echo "The plugins will now be automatically installed"
+sleep .5s
+vim -E -c PlugInstall -c q -c q
+
+cd ~/.vim/plugged/YouCompleteMe/
+./install.py
+cd -
+
+echo "Vim setup done!"

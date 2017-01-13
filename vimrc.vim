@@ -13,6 +13,9 @@ Plug 'tpope/vim-pathogen'
 " Autocompletion
 Plug 'Valloric/YouCompleteMe'
 
+" Some extra snippets for autocompletion
+Plug 'SirVer/ultisnips'
+
 " Highlight colors
 Plug 'ap/vim-css-color'
 
