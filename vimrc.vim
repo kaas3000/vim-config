@@ -16,6 +16,9 @@ Plug 'Valloric/YouCompleteMe'
 " Some extra snippets for autocompletion
 Plug 'SirVer/ultisnips'
 
+" Commentary allows gc to comment lines
+Plug 'tpope/vim-commentary'
+
 " Highlight colors
 Plug 'ap/vim-css-color'
 
