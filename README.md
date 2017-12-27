@@ -15,3 +15,13 @@ cd ~/.vimconfig
 * `git` (obviously)
 * `vim` (obviously)
 * `cmake`
+
+---
+
+# FAQ
+### How to fix the "`_arguments:451: _vim_files: function definition file not found`" error?
+Run the following command:
+
+```Bash
+rm ~/.zcompdump  $ZPLUG_HOME/zcompdump
+```
